@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pepsi Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
 </head>
 <body>
     <section class="sec">
@@ -19,8 +20,28 @@
             </ul>
         </header>
         <div class="content">
-
+            <div class="textbox">
+                <h2>That's What<br><span>I Like</span></h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <a href="#">View All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="img/pepsi001.png" class="pepsi">
+            </div>
         </div>
+        <ul class="thumb">
+            <li><img src="img/pepsi001.png" onclick="imgSlider('img/pepsi001.png');changeBgColor('#0062be')"></li>
+            <li><img src="img/pepsi002.png" onclick="imgSlider('img/pepsi002.png');changeBgColor('#e60c2c')"></li>
+            <li><img src="img/pepsi003.png" onclick="imgSlider('img/pepsi003.png');changeBgColor('#1e1e1e')"></li>
+        </ul>
+        <ul class="media">
+            <li><a href="#"><img src="img/facebook.png"></a></li>
+            <li><a href="#"><img src="img/instagram.png"></a></li>
+            <li><a href="#"><img src="img/twitter.png"></a></li>
+        </ul>
     </section>
 </body>
 </html>
