@@ -52,24 +52,24 @@ header ul li a{
     justify-content: space-between;
     align-items: center;
 }
-.content .textBox{
+.content .textbox{
     position: relative;
     max-width: 600px;
 }
-.content .textBox h2{
+.content .textbox h2{
     color: #ffff;
     font-size: 4em;
     line-height: 1.5em;
     font-weight: 900;
     text-transform: uppercase;
 }
-.content .textBox h2 span{
+.content .textbox h2 span{
     font-size: 2em;
 }
-.content .textBox p{
+.content .textbox p{
     color: #ffff;
 }
-.content .textBox a{
+.content .textbox a{
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
@@ -84,7 +84,7 @@ header ul li a{
 .content .imgBox{
     width: 600px;
     display: flex;
-    padding-right: 50px;
+    padding-right: 150px;
     margin-top: 50px;
     justify-content: flex-end;
 }
